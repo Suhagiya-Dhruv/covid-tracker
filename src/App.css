@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: radial-gradient(circle, #3d2c36, #392e38, #362f3a, #33313a, #313239, #2f3238, #2d3137, #2b3136, #263034, #222f32, #1e2d2f, #1b2c2b);
+}
+
+.progress {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main {
+    display: flex;
+    height: 90vh;
+    width: 100vw;
+}
+
+.selectmaptop {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    order: 1;
+}
+
+select {
+    width: 15.7rem;
+    height: 2rem;
+    font-weight: bold;
+    font-size: 20px;
+    outline: none;
+    background-color: lightgrey;
+}
+
+.allcard {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:900px) {
+    .main {
+        flex-direction: column;
+    }
+    select {
+        margin: 20px 0 10px 0;
+    }
+    .allcard {
+        margin: 20px;
+        width: 90vw;
+    }
+    .selectmaptop {
+        order: 0;
+        width: 100vw;
+    }
+    img {
+        margin-bottom: 30px;
+    }
+}
