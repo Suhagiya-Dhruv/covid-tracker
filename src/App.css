@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     background-image: radial-gradient(circle, #3d2c36, #392e38, #362f3a, #33313a, #313239, #2f3238, #2d3137, #2b3136, #263034, #222f32, #1e2d2f, #1b2c2b);
 }
